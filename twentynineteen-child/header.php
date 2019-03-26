@@ -27,7 +27,7 @@
 
 			<div class="site-branding-container">
 				<?php get_template_part( 'template-parts/header/site', 'branding' ); ?>
-                <div class="googleadunit">
+                <div id="google-headeradunit">
                     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                     <!-- Test Ad -->
                     <ins class="adsbygoogle"
