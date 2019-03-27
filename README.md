@@ -1,6 +1,6 @@
 # Embedding Scripts & Markup with Google Tag Manager
 
-## Slides
+## Presentation Slides
 - Introduction
 - Docker / Development environment intro
 - GTM Introduction / What is GTM
@@ -8,7 +8,7 @@
 
 https://prezi.com/p/kafq14-bychv/
 
-## Tutorial Steps
+## Live Coding Tutorial Steps
 
 1. Show docker-compose.yml and explain what it does
 2.  Show development environment structure for child theme development
