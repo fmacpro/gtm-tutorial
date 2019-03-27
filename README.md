@@ -1,4 +1,4 @@
-# Google Tag Manager Script Embed Tutorial
+# Embedding Scripts & Markup with Google Tag Manager
 
 ## Slides
 - Introduction
