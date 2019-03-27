@@ -3,9 +3,10 @@
 ## Slides
 - Introduction
 - Docker / Development environment intro
-- Reasoning for moving scripts into Google Tag Manager (GTM)
-- GTM Introduction
-- Conclusion
+- GTM Introduction / What is GTM
+- Why manage scripts in GTM
+
+https://prezi.com/p/kafq14-bychv/
 
 ## Tutorial Steps
 
