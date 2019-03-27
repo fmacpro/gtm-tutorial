@@ -26,7 +26,7 @@
     </script>
     ~~~~
 
-4. Create GTM Account
+4. [Create GTM Account](https://marketingplatform.google.com/about/tag-manager/)
 5. Insert GTM Tags into top of Header and after opening Body Tag as per Google's instructions
 
     Paste this code as high in the <head> of the page as possible:
