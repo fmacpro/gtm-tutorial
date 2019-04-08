@@ -18,6 +18,7 @@ services:
      image: mariadb
      volumes:
        - ./db_data:/var/lib/mysql
+       - ./docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
      restart: always
      environment:
        MYSQL_ROOT_PASSWORD: rootpassword
@@ -33,3 +34,4 @@ services:
 volumes:
     wordpress_files:
     db_data:
+    docker-entrypoint-initdb.d:
