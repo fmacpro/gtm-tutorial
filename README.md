@@ -13,12 +13,14 @@
 
 ## Important Information
 
-- Wordpress Username:   `demouser`
-- Wordpress Password:   `demopassword`
-- Development URL:      `tagmanager.local`
-- phpMyAdmin URL:       `tagmanager.local:8181`
-- phpMyAdmin Username:  `root`
-- phpMyAdmin Password:  `rootpassword`
+| Name                  | Value                   |
+| ----------------------| ----------------------- |
+| Wordpress Username    | `demouser`              |
+| Wordpress Password    | `demopassword`          |
+| Development URL       | `tagmanager.local`      |
+| phpMyAdmin URL        | `tagmanager.local:8181` |
+| phpMyAdmin Username   | `root`                  |
+| phpMyAdmin Password   | `rootpassword`          |
 
 ## Presentation Slides
 - Introduction
