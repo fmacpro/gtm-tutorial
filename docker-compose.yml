@@ -6,18 +6,16 @@ services:
      links:
        - wordpress_db:mysql
      volumes:
-       - ./wordpress_files:/var/www/html
+       - ./wp-config.php:/var/www/html/wp-config.php
        - ./twentynineteen-child:/var/www/html/wp-content/themes/twentynineteen-child
      ports:
        - "80:80"
      restart: always
-     environment:
-       WORDPRESS_DB_USER: wordpress
-       WORDPRESS_DB_PASSWORD: password
+     depends_on:
+       - wordpress_db
    wordpress_db:
      image: mariadb
      volumes:
-       - ./db_data:/var/lib/mysql
        - ./docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
      restart: always
      environment:
@@ -31,7 +29,9 @@ services:
        - wordpress_db:db
      ports:
        - 8181:80
+     restart: always
+     depends_on:
+       - wordpress_db
 volumes:
     wordpress_files:
     db_data:
-    docker-entrypoint-initdb.d:
