@@ -11,6 +11,12 @@
     ~~~~
 4. Run `docker-compose up`
 
+## Reset
+
+1. Stop the containers `docker-compose stop`
+2. Remove the volumes `docker-compose rm`
+3. Start the containers `docker-compose up --force-recreate`
+
 ## Important Information
 
 | Name                  | Value                   |
