@@ -1,5 +1,25 @@
 # Embedding Scripts & Markup with Google Tag Manager
 
+## Initial Setup
+
+1. Install Docker
+2. Install docker-compose
+3.  Add hosts file entry `sudo nano /etc/hosts`
+
+    ~~~~
+    127.0.0.1       tagmanager.local
+    ~~~~
+4. Run `docker-compose up`
+
+## Important Information
+
+- Wordpress Username:   `demouser`
+- Wordpress Password:   `demopassword`
+- Development URL:      `tagmanager.local`
+- phpMyAdmin URL:       `tagmanager.local:8181`
+- phpMyAdmin Username:  `root`
+- phpMyAdmin Password:  `rootpassword`
+
 ## Presentation Slides
 - Introduction
 - Docker / Development environment intro
